@@ -18,3 +18,7 @@ with
 `$ node server.js 8000 http://localhost:8001`
 
 sending get request to http://localhost:8000/send would therefore let this server send a message to the next configured server, i.e. http://localhost:8001, triggering a message to whichever server is configured next.
+
+Try it out (for example with `HTTPie` (https://github.com/jkbrzt/httpie)):
+
+`$ http GET localhost:8000/send`
