@@ -4,7 +4,9 @@ sends message to next configured server.
 needs nodejs.
 
 ## instructions
+
 go to directory
+
 `$ node server.js <port> <url>`
 
 with
